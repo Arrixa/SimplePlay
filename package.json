@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "npx playwright install && next build",
-    "postinstall": "npx playwright install",
     "start": "next start",
     "lint": "next lint"
   },

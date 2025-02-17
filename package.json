@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "postinstall": "npx playwright install",
+    "build": "sh install-deps.sh && npx playwright install && next build",
     "start": "next start",
     "lint": "next lint"
   },

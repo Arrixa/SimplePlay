@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx playwright install-deps && next build",
+    "build": "cat /etc/os-release npx playwright install-deps && next build",
     "start": "next start",
     "lint": "next lint",
     "start-server": "node ./express/backend.js"

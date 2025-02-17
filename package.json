@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "sh install-deps.sh && cat /etc/os-release && npx playwright install-deps && next build",
+    "build": "next build",
+    "postinstall": "npx playwright install-deps",
     "start": "next start",
-    "lint": "next lint",
-    "start-server": "node ./express/backend.js"
+    "lint": "next lint"
   },
   "devDependencies": {
     "@playwright/test": "^1.50.1",

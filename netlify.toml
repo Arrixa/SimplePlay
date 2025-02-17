@@ -2,4 +2,4 @@
   command = "./install-deps.sh && npm install && npm run build"
 
 [[plugins]]
-  package = "netlify-plugin-playwright"
+  package = "@netlify/plugin-nextjs"

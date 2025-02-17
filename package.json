@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postinstall": "npx playwright install",
+    "postinstall": "npx playwright install && npm install -D netlify-plugin-playwright",
     "start": "next start",
     "lint": "next lint"
   },
